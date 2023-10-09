@@ -8,7 +8,7 @@ import androidx.room.RoomDatabase;
 
 @Database(entities = {User.class, Review.class}, version = 1)
 public abstract class Hike_Database extends RoomDatabase {
-    private static final String Database_name = "Hike_v1.db";
+    private static final String Database_name = "HikeDB1";
     private static Hike_Database instance;
 
     public static synchronized Hike_Database getInstance(Context context){
